@@ -1,0 +1,181 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #2563eb
+    );
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    display:flex;
+    gap:40px;
+}
+
+.left,
+.right{
+    flex:1;
+}
+
+.left{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+
+    padding:50px;
+    border-radius:25px;
+
+    color:white;
+    box-shadow:0 8px 30px rgba(0,0,0,0.3);
+}
+
+.left h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:18px;
+    margin-bottom:30px;
+    color:#ddd;
+}
+
+input[type="file"]{
+    width:100%;
+    padding:15px;
+    border-radius:12px;
+    border:none;
+    background:white;
+    margin-bottom:20px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+.card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(20px);
+
+    border-radius:25px;
+    padding:40px;
+    color:white;
+    box-shadow:0 8px 30px rgba(0,0,0,0.3);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card li{
+    margin:18px 0;
+    font-size:20px;
+}
+
+.result-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.result-card{
+    width:700px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding:50px;
+    border-radius:25px;
+    color:white;
+    text-align:center;
+}
+
+.score-box,
+.role-box,
+.skills-box{
+    margin-top:30px;
+}
+
+.skill-tag{
+    display:inline-block;
+    background:#2563eb;
+    padding:12px 20px;
+    border-radius:30px;
+    margin:8px;
+}
+
+```css
+.ats-card{
+    margin-top:30px;
+    padding:25px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+}
+
+.progress-bar{
+    width:100%;
+    height:20px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin:15px 0;
+}
+
+.progress{
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        #22c55e,
+        #3b82f6
+    );
+}
+
+.suggestion-box{
+    margin-top:30px;
+    background:#ffffff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.suggestion-box h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+.suggestion-box ul{
+    padding-left:20px;
+}
+
+.suggestion-box li{
+    margin:10px 0;
+    font-size:17px;
+}
