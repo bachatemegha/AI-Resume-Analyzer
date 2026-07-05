@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,3 +67,73 @@
 </body>
 </html>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeIQ AI</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+            <h1>AI Resume Analyzer</h1>
+
+            <p>
+                Upload your resume and get
+                Resume Score, ATS Analysis,
+                Skills Detection & Job Role Match.
+            </p>
+
+            
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+    <label>Select Resume PDF</label>
+    <br><br>
+
+    <input
+        type="file"
+        name="resume"
+        accept=".pdf"
+        required
+    >
+
+    <br><br>
+
+    <button type="submit">
+        Analyze Resume
+    </button>
+
+</form>
+
+
+
+        </div>
+
+        <div class="right">
+            <div class="card">
+                <h2>⚡ Premium Features</h2>
+
+                <ul>
+                    <li>Resume Score</li>
+                    <li>ATS Analysis</li>
+                    <li>Skill Detection</li>
+                    <li>Job Role Match</li>
+                    <li>AI Suggestions</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+>>>>>>> e89aa1a622a4ea22ad7abc66783113b791cf4822
