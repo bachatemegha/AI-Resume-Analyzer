@@ -45,3 +45,12 @@ AI-powered Resume Analyzer with ATS Score, Skill Detection & Job Role Prediction
 bash
 pip install -r requirements.txt
 python app.py
+
+---
+
+## 👩‍💻 Author
+
+**Megha Bachate**
+
+- GitHub: https://github.com/bachatemegha
+- LinkedIn: https://www.linkedin.com/in/megha-bachate-34a316346/
